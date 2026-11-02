@@ -1,3 +1,4 @@
+// Returns true if `value` is a plain object (created by `{}`, `new Object()`, or `Object.create(null)`), otherwise false.
 export default function isPlainObject(value) {
 	if (typeof value !== 'object' || value === null) {
 		return false;
